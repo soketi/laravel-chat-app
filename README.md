@@ -1,7 +1,7 @@
 Laravel + soketi = <3
 =====================
 
-This projects demonstrates the power of soketi in Laravel.
+This project demonstrates the power of soketi's WebSocket functionality in Laravel.
 
 ## Installing the project
 
