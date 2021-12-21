@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+require __DIR__.'/auth.php';
+
 Route::middleware(['auth', 'verified'])->group(function () {
     Route::get('/{room?}', ChatRoomController::class)->name('dashboard');
     Route::post('/message', SendMessageController::class)->name('send.message');
 });
-
-require __DIR__.'/auth.php';
