@@ -7,7 +7,7 @@ use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
 $rules = [
-    '@PHP73Migration' => true,
+    '@PHP80Migration' => true,
     '@PSR12' => true,
     'array_indentation' => true,
     'array_syntax' => ['syntax' => 'short'],
@@ -156,6 +156,8 @@ $rules = [
     'trailing_comma_in_multiline' => [
         'elements' => [
             'arrays',
+            'arguments',
+            'parameters',
         ],
     ],
     'trim_array_spaces' => true,

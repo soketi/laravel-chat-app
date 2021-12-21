@@ -9,7 +9,7 @@ The server requires:
 
 - Composer
 - Node.js + NPM (for soketi)
-- PHP 7.3+
+- PHP 8.0+
 
 ```bash
 git clone git@github.com:soketi/laravel-chat-app.git

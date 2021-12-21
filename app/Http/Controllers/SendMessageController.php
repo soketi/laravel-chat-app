@@ -24,7 +24,7 @@ class SendMessageController extends Controller
         Message::broadcast(
             $request->user(),
             $request->room,
-            $request->message
+            $request->message,
         );
 
         return Response::json(['ok' => true]);
