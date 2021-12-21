@@ -3,6 +3,8 @@ Laravel + soketi = <3
 
 This project demonstrates the power of soketi's WebSocket functionality in Laravel.
 
+![demo](demo.png)
+
 ## Installing the project
 
 The server requires:
@@ -60,7 +62,7 @@ soketi start
 
 ## Authentication
 
-The seeders created three accounts. All accounts can be accessed with the password `secret`:
+The seeders created three accounts. All accounts can be accessed with the password `password`:
 
 - `test@test.com`
 - `test2@test.com`
