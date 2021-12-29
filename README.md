@@ -1,9 +1,9 @@
 Laravel + soketi = <3
 =====================
 
-This project demonstrates the power of soketi's WebSocket functionality in Laravel.
-
 ![demo](demo.png)
+
+A small Laravel Chat app demo for soketi. 📡
 
 ## Installing the project
 
