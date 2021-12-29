@@ -34,6 +34,20 @@ php artisan migrate:fresh --seed && \
 php artisan storage:link
 ```
 
+Open your `.env` file and configure the `PUSHER_*` credentials (which can be the same as the default ones below):
+
+```
+PUSHER_APP_KEY=app-key
+PUSHER_APP_ID=app-id
+PUSHER_APP_SECRET=app-secret
+PUSHER_HOST=127.0.0.1
+PUSHER_PORT=6001
+
+MIX_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
+MIX_PUSHER_HOST="${PUSHER_HOST}"
+MIX_PUSHER_PORT="${PUSHER_PORT}"
+```
+
 Build the frontend assets:
 
 ```bash
