@@ -17,7 +17,7 @@
         "tightenco/ziggy": "^1.0"
     },
     "require-dev": {
-        "facade/ignition": "^2.5",
+        "facade/ignition": "^2.17",
         "fakerphp/faker": "^1.9.1",
         "friendsofphp/php-cs-fixer": "^3.3",
         "laravel/sail": "^1.0.1",
